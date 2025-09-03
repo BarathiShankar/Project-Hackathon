@@ -1,10 +1,16 @@
-**STILL UNDER CONSTRUCTION**
-# Team Name : MyDearCoding
+<!--STILL UNDER CONSTRUCTION-->
+<div align="center">
+
+#  Team Name : MyDearCoding  
+### 💡 Idea : ERP-based Integrated Student Management System  
+✨ Empowering campuses with automation, analytics, and AI Personalization ✨
+
+</div>
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Idea and Theme] (#Idea-and-Theme)
+- [Idea and Theme](#Idea-and-Theme)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
@@ -15,44 +21,47 @@
 
 ## Overview
 
-The project is developed for solving problems related to -topic- ,for -problem statement-. This is a hackathon project for participating in "Smart India Hackathon 2025"
-Describe your project here.  
+The project is developed for creating a Student management portal,starting from the Admission process to the placements, Unifying the entire process under the same roof. This is a hackathon project for participating in "Smart India Hackathon 2025"
+<!--Describe your project here.  
 What problem does it solve?  
-What makes it unique or interesting?
+What makes it unique or interesting?-->
 
 ## Idea and Theme
 
-We are aiming to develop a software based on the problem ___.Our aim is to reach the people who are ___ .The main theme of our concept is to ___
+We are aiming to develop a software based on the problem ERP-based Integrated Student Management system.Our aim is to develop the Education system to higher level .The main theme of our concept is to Automate the Academics of higher education to make the education more efficient
 
-## Features
+<!--## Features
 
 - Feature 1  
 - Feature 2  
 - Feature 3  
 - (Add more features as needed)
-
+-->
 ## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript, PHP  
-- **Backend:** Node.js  
+- **Backend:** Node.js, PHP  
 - **Database:** MySQL
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js >= X.X.X  
-- (Other prerequisites)
+- Editors : VS , CodeBlocks
+- Platform : Github
+- Designers : Adobe , Figma
+- Presentation : Canva , PPT
 
-Team Members
-R Barathi Shankar - Role/Responsibility (e.g., Frontend Developer)
+Team Members -
 
-Bharath Jeyakkumar S- Role/Responsibility
+R Barathi Shankar - Team Leader || Domain Expert || Data Analyst
 
-Bilu Besto H - Role/Responsibility
+Bharath Jeyakkumar S - UI/UX Developer
 
-Vinesh D- Role/Responsibility
+Bilu Besto H - Tester
 
-Rathichandrika - Role/Responsibility
+Vinesh D - Frontend Developer
 
-Nivriti- Role/Responsibility
+Rathichandrika - Backend Developer
+
+Nivriti- Backend Developer || AI Modeling
