@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Simple dummy login function
+    function login() {
+      document.querySelector(".login-page").style.display = "none"; // hide login
+      document.querySelector(".container").style.display = "flex";  // show dashboard
+    }
+  </script>
+</head>
+<body>
+  <!-- LOGIN PAGE -->
+  <div class="login-page">
+    <div class="login-box">
+      <h2>Student Management System</h2>
+      <p>Login to continue</p>
+      <!-- Dummy input fields (not connected to anything) -->
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <!-- Button triggers JS function above -->
+      <button onclick="login()">Login</button>
+    </div>
+  </div>
+
+  <!-- DASHBOARD PAGE -->
+  <div class="container" style="display: none;">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <h2>SMS</h2>
+      <ul>
+        <li class="active">Dashboard</li>
+        <li>Students</li>
+        <li>Teachers</li>
+        <li>Courses</li>
+        <li>Settings</li>
+      </ul>
+    </aside>
+
+    <!-- Main Dashboard Area -->
+    <main class="main">
+      
+      <!-- Top Header -->
+      <header class="header">
+        <h1>Dashboard</h1>
+        <div class="user">👤 Admin</div>
+      </header>
+
+      <!-- Quick Summary Cards -->
+      <section class="cards">
+        <div class="card">
+          <h3>Total Students</h3>
+          <p>320</p>
+        </div>
+        <div class="card">
+          <h3>Total Teachers</h3>
+          <p>24</p>
+        </div>
+        <div class="card">
+          <h3>Courses</h3>
+          <p>18</p>
+        </div>
+        <div class="card">
+          <h3>Attendance Today</h3>
+          <p>290</p>
+        </div>
+      </section>
+
+      <!-- Student Table -->
+      <section class="table-section">
+        <h2>Recent Students</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Class</th>
+              <th>Roll No</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Amit Sharma</td>
+              <td>10th</td>
+              <td>101</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+            <tr>
+              <td>Priya Singh</td>
+              <td>12th</td>
+              <td>202</td>
+              <td><span class="status inactive">Inactive</span></td>
+            </tr>
+            <tr>
+              <td>Rahul Mehta</td>
+              <td>9th</td>
+              <td>303</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
