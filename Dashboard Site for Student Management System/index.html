@@ -1,9 +1,11 @@
+<!-- Dashboard site for the users -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Student Management System</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/date.png">
+  <link rel="stylesheet" href="deco.css">
   <script>
     // Simple dummy login function
     function login() {
@@ -18,20 +20,16 @@
     <div class="login-box">
       <h2>Student Management System</h2>
       <p>Login to continue</p>
-      <!-- Dummy input fields (not connected to anything) -->
       <input type="text" placeholder="Username">
       <input type="password" placeholder="Password">
-      <!-- Button triggers JS function above -->
       <button onclick="login()">Login</button>
     </div>
   </div>
-
   <!-- DASHBOARD PAGE -->
   <div class="container" style="display: none;">
-    
     <!-- Sidebar Navigation -->
     <aside class="sidebar">
-      <h2>SMS</h2>
+      <h2>Menu</h2>
       <ul>
         <li class="active">Dashboard</li>
         <li>Students</li>
@@ -40,16 +38,13 @@
         <li>Settings</li>
       </ul>
     </aside>
-
     <!-- Main Dashboard Area -->
     <main class="main">
-      
       <!-- Top Header -->
       <header class="header">
         <h1>Dashboard</h1>
         <div class="user">👤 Admin</div>
       </header>
-
       <!-- Quick Summary Cards -->
       <section class="cards">
         <div class="card">
@@ -61,15 +56,14 @@
           <p>24</p>
         </div>
         <div class="card">
-          <h3>Courses</h3>
-          <p>18</p>
+          <h3>Student Attendance %</h3>
+          <p>91%</p>
         </div>
         <div class="card">
-          <h3>Attendance Today</h3>
-          <p>290</p>
+          <h3>Teacher Attendance %</h3>
+          <p>96%</p>
         </div>
       </section>
-
       <!-- Student Table -->
       <section class="table-section">
         <h2>Recent Students</h2>
@@ -99,6 +93,40 @@
               <td>Rahul Mehta</td>
               <td>9th</td>
               <td>303</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- Teacher Table -->
+      <section class="table-section">
+        <h2>Recent Teachers</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Employee ID</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dr. Kavitha R</td>
+              <td>Physics</td>
+              <td>T101</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+            <tr>
+              <td>Mr. Arjun Nair</td>
+              <td>Mathematics</td>
+              <td>T202</td>
+              <td><span class="status inactive">Inactive</span></td>
+            </tr>
+            <tr>
+              <td>Ms. Sneha Rao</td>
+              <td>Computer Science</td>
+              <td>T303</td>
               <td><span class="status active">Active</span></td>
             </tr>
           </tbody>
